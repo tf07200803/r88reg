@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f5f5f5;
+	font-size: 14px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+border,ol, ul {
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+a{
+	display:block;
+	text-decoration:none;
+}
+.all{
+	width:1035px;
+	margin:0 auto;
+}
+body,a,.button_login1,.left_login dd,.Site span{
+	color:#808080;
+}
+.logo ,.Video,.lefthead,.progress_txt1,.left_login dt,.left_login dd,
+.left_login dd img,.line_title,.Site,.platform1,.foot_logo,.foot ul,
+.foot li,.icon,.icon img,form li,.foot-word a,.foot-word img,.progress{
+	float:left;
+}
+.logo{
+	margin:38px 0 0 0 ;
+}
+.logo P,.button_login1,.dy_about_title,.platform_title{
+	font-size:16px;
+}
+.logo P{
+	width:422px;
+	text-align:center;
+}
+.Video{
+	width: 480px;
+	height:217px;
+	background: url(../image/Video_bg.png) no-repeat right bottom;
+	margin:23px 0 0 133px;
+}
+.iframe{
+	width:384px;
+	height:189px;
+}
+.lefthead{
+	width:372px;
+	padding: 0 0 0 30px;
+    position: relative;
+}
+.left_login{
+	width:370px;
+	height:335px;
+	border:#e6e6e6 1px solid;
+	margin-bottom: 23px;
+}
+.login_title{
+	position: absolute;
+	background: url(../image/login_title.png);
+	width: 135px;
+	height: 31px;
+	left: 120px;
+	top: -4px;
+	font-size: 18px;
+	padding: 3px 0 0 49px;
+}
+.left_login ul{
+	margin: 0 20px 0 15px;
+}
+form{
+	padding-top: 50px;
+}
+form li{
+	margin: 0 5px 15px 0;
+	height: 34px;
+	line-height: 34px;
+	text-align: right;
+}
+.order1{
+	width:80px;
+    color: #222121;
+}
+.order2 input,.order3 input{
+	height:30px;
+	border:1px #d9d9d9 solid;
+	background:#f5f5f5;
+	outline: none;
+	padding-left:5px;
+}
+.order2 input{
+	width: 230px;
+}
+.order3 input{
+	width: 135px;
+}
+.order4{
+	width:90px;
+	margin-top: 2px;
+}				
+.order5 textarea{
+	width: 712px;
+    height: 100px;
+}
+.progress_txt1,.progress_txt2,.foot ul p,.copyright,.foot-word a{
+    font-size:12px;
+}
+.progress_txt1{
+	width:75px;
+	margin-left: 95px;
+}
+.progress_txt2{
+	margin:0 20px 10px 0;
+}
+.progress,.dy_about_txt,.platform1,.platform2,.left_login{
+	background-color: #fff;
+}	
+.progress{
+    height: 9px;
+	border:1px solid #e6e6e6;
+    width: 122px;
+    margin: 2px 5px 0 0;
+  }
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    background-color: #ffbf00;
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+.button_login1,.button_login2{
+	line-height: 38px;
+    text-align: center;
+	float: left;
+}
+.button_login1{
+	background-image: url(../image/button.png);
+    width: 237px;
+    height: 33px;
+    margin: 0px 10px 0 100px;
+    line-height: 30px;
+}
+.button_login2{
+	background-image: url(../image/button2.png);
+    width: 86px;
+    height: 38px;
+    font-size: 12px;
+    color: #b3b3b3;
+    padding-left: 20px;
+}
+.Download,.foot ul p,.copyright,.foot-word a,.login_title{
+	color:#FFF;
+}
+.Download{
+	background:url(../image/Download.png);
+	width:351px;
+	height:33px;
+	font-size:18px;
+	line-height: 33px;
+    padding-left: 20px;
+}
+.left_login dl{
+	width: 329px;
+	height: 34px;
+	margin-left: 20px;
+	border-bottom: 2px dashed #e6e6e6;
+}
+.left_login dt,.line_title,.Site{
+	color:#202020;
+}
+.left_login dd{
+	margin: 0 0 0 10px;
+}
+.left_login dd img{
+	margin-right: 5px;
+}
+.dd{
+	width:110px;
+}
+.div_line{
+	width:329px;
+	border-bottom:2px dashed #e6e6e6;
+	margin-left: 20px;
+}
+.div_line a{
+	padding:0 0 8px 95px;
+}
+.div_line a:hover,.platform1 a:hover,.platform2 a:hover{
+	color: #ce2722;
+	text-decoration: underline;
+}
+.Site{
+	padding: 10px 0 0 20px;
+}
+.Site span{
+	padding-left: 25px;
+}	
+.Site a{
+	margin-left: 95px;
+}
+.right_login{
+	width:620px;
+	float:right;
+	position:relative;
+}
+.dy_about{
+	background: url(../image/about.png);
+	position: absolute;
+	height: 31px;
+	width: 131px;
+	left: 0;
+	top: 0;
+	font-size: 16px;
+    color: white;
+    line-height: 29px;
+	padding-left: 20px;
+}	
+.on-line{
+    background: url(../image/on-line.png);
+    width: 73px;
+    height: 29px;
+    position: absolute;
+    left: 490px;
+    font-size: 16px;
+    color: white;
+    line-height: 29px;
+    padding-left: 35px;
+}
+.dy_about_txt{
+	width: 596px;
+	height: 325px;
+	margin-top: 30px;
+	border-top: 1px solid #F00;
+	border-right: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+}
+.dy_about_title{
+	color:#333;
+	margin: 25px 0 10px 40px;
+}
+.dy_about_title span{
+	color:#F00;
+}	
+.dy_about_txt p{
+	width: 560px;
+    line-height: 24px;
+    text-indent: 2em;
+    margin: 0 0 0px 20px;
+}
+.platform1,.platform2{
+	width: 260px;
+    height: 285px;
+    border: #e6e6e6 1px solid;
+    position: relative;
+    margin-top: 23px;
+    padding: 50px 0 0px 30px;
+}
+.platform2{
+	float:right;
+    margin-right: 23px;
+}
+.platform1_bg{
+	background: url(../image/platform1.png);
+	width: 184px;
+	height: 34px;
+	position: absolute;
+	left: 58px;
+	top: -4px;
+	font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+}
+.platform2_bg{
+	width: 184px;
+	height: 34px;
+	position: absolute;
+	left: 58px;
+	top: -4px;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	background-image: url(../image/platform2.png);
+}
+.platform_title{
+	color:#000;
+}
+.platform1 a,.platform2 a{
+	margin:10px 0;
+}	
+.foot{
+	width:981px;
+	height:118px;
+	background:#c32a25 bottom;
+	overflow:hidden;
+    margin-left: 30px;
+	 float: left;
+}	
+.foot_logo{
+	height: 62px;
+    width: 208px;
+    border-right: #b3b3b3 1px solid;
+    margin: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+.foot ul{
+	width:466px;
+	height:82px;
+	border-right: #b3b3b3 1px solid;
+	margin: 20px;
+}
+.foot li{
+	margin: 5px 10px 0 0;
+    color: white;
+}	
+.foot ul p{
+	clear:left;
+	margin-top: 60px;
+}	
+.icon{
+	margin: 25px 20px 10px 20px;
+}	
+.icon img{
+	margin-right: 10px;
+}
+.copyright img{
+	vertical-align: middle;
+	margin: 0 5px 0 20px;
+}
+.foot-word{
+    padding: 5px 0 0 775px;
+}
+.foot-word img{
+	margin: 0 5px;
+	vertical-align: middle;
+}
+															
